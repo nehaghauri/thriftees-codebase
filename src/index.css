@@ -1,0 +1,128 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  html {
+    -webkit-text-size-adjust: 100%;
+    scroll-behavior: smooth;
+  }
+  body {
+    @apply bg-paper font-sans text-ink antialiased;
+  }
+  h1, h2, h3, h4 {
+    @apply font-display tracking-tight;
+  }
+  :focus-visible {
+    outline: 3px solid #D63A28;
+    outline-offset: 3px;
+    border-radius: 6px;
+  }
+  ::selection {
+    background: #F7D94C;
+    color: #151B3B;
+  }
+  img { @apply select-none; }
+}
+
+@layer components {
+  .container-x {
+    @apply mx-auto w-full max-w-[1320px] px-4 sm:px-6 lg:px-10;
+  }
+
+  /* Buttons: pill shaped, with a hard "sticker" shadow that pops on hover */
+  .btn {
+    @apply inline-flex items-center justify-center gap-2 rounded-full border-2 border-ink px-6 py-3 text-sm font-semibold transition duration-150 disabled:cursor-not-allowed disabled:opacity-50;
+  }
+  .btn:not(:disabled):hover {
+    @apply -translate-x-0.5 -translate-y-0.5 shadow-pop;
+  }
+  .btn:not(:disabled):active {
+    @apply translate-x-0 translate-y-0 shadow-none;
+  }
+  .btn-primary { @apply bg-tomato text-white; }
+  .btn-dark { @apply bg-ink text-paper; }
+  .btn-light { @apply bg-white text-ink hover:bg-butter; }
+  .btn-sm { @apply px-4 py-2 text-[13px]; }
+  .btn-lg { @apply px-8 py-4 text-base; }
+
+  .link-u {
+    @apply underline decoration-2 underline-offset-4 decoration-ink/30 transition hover:decoration-tomato;
+  }
+
+  /* Form fields */
+  .label { @apply mb-1.5 block text-[13px] font-semibold; }
+  .field {
+    @apply w-full rounded-xl border-2 border-ink bg-white px-3.5 py-3 text-[15px] text-ink placeholder:text-ink-faint transition;
+  }
+  .field:focus { @apply outline-none; box-shadow: 0 0 0 4px #F7D94C; }
+  .field-error { @apply border-tomato; }
+  .error-text { @apply mt-1.5 text-[13px] font-medium text-tomato; }
+
+  /* Size / filter chips */
+  .chip {
+    @apply inline-flex min-w-[2.75rem] items-center justify-center rounded-full border-2 border-ink bg-white px-3.5 py-1.5 text-sm font-semibold transition hover:bg-butter;
+  }
+  .chip[aria-checked='true'], .chip[aria-pressed='true'] { @apply bg-ink text-paper hover:bg-ink; }
+  .chip:disabled { @apply cursor-not-allowed border-ink/30 text-ink/40 line-through hover:bg-white; }
+
+  /* Thrift price tag: notched corner + string hole */
+  .price-tag {
+    @apply relative inline-flex items-center bg-butter py-1 pl-6 pr-3 font-mono text-[13px] font-medium text-ink;
+    clip-path: polygon(14px 0, 100% 0, 100% 100%, 14px 100%, 0 50%);
+  }
+  .price-tag::before {
+    content: '';
+    @apply absolute left-[9px] top-1/2 h-1.5 w-1.5 -translate-y-1/2 rounded-full bg-paper;
+  }
+
+  .sticker {
+    @apply inline-flex items-center rounded-full border-2 border-ink bg-white px-2.5 py-0.5 text-[11px] font-bold leading-5;
+  }
+}
+
+/* Marquee: pauses when you hover it */
+.marquee-track { animation: marquee 50s linear infinite; }
+.marquee:hover .marquee-track { animation-play-state: paused; }
+
+/* Clothes-rail hangers in the hero */
+.hanger { transform-origin: 50% 0; }
+.hanger:hover, .hanger:focus-within { animation: swing 1.4s ease-out 1; }
+
+/* Quick-add only on devices that can hover */
+.quick-add { opacity: 0; transform: translateY(8px); pointer-events: none; }
+@media (hover: hover) {
+  .product-card:hover .quick-add, .product-card:focus-within .quick-add {
+    opacity: 1;
+    transform: translateY(0);
+    pointer-events: auto;
+  }
+  .product-card:hover .img-a, .product-card:focus-within .img-a { opacity: 0; }
+  .product-card:hover .img-b, .product-card:focus-within .img-b { opacity: 1; }
+}
+@media (hover: none) { .quick-add { display: none; } }
+
+.no-scrollbar { scrollbar-width: none; }
+.no-scrollbar::-webkit-scrollbar { display: none; }
+
+@media (prefers-reduced-motion: reduce) {
+  *, *::before, *::after {
+    animation-duration: 0.001ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.001ms !important;
+    scroll-behavior: auto !important;
+  }
+  .marquee-track { animation: none !important; }
+}
+
+@keyframes marquee {
+  from { transform: translateX(0); }
+  to { transform: translateX(-50%); }
+}
+@keyframes swing {
+  0% { transform: rotate(0deg); }
+  22% { transform: rotate(calc(var(--r, 4deg) * -1)); }
+  48% { transform: rotate(calc(var(--r, 4deg) * 0.6)); }
+  72% { transform: rotate(calc(var(--r, 4deg) * -0.25)); }
+  100% { transform: rotate(0deg); }
+}

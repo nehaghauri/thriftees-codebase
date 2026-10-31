@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 750" width="600" height="750" role="img" aria-label="Illustration of sweater">
+<defs><filter id="sh026a" x="-10%" y="-10%" width="130%" height="130%"><feDropShadow dx="9" dy="12" stdDeviation="0" flood-color="#151B3B" flood-opacity=".16"/></filter><clipPath id="c026a"><path d="M 220 185 L 262 170 Q 300 208 338 170 L 380 185 L 450 250 L 462 540 L 408 550 L 395 330 L 395 590 L 205 590 L 205 330 L 192 550 L 138 540 L 150 250 Z"/></clipPath></defs>
+<rect width="600" height="750" fill="#B9CDF2"/><rect x="0" y="80" width="600" height="46" fill="#d5e1f7"/><rect x="0" y="200" width="600" height="46" fill="#d5e1f7"/><rect x="0" y="320" width="600" height="46" fill="#d5e1f7"/><rect x="0" y="440" width="600" height="46" fill="#d5e1f7"/><rect x="0" y="560" width="600" height="46" fill="#d5e1f7"/><rect x="0" y="680" width="600" height="46" fill="#d5e1f7"/>
+<g transform="translate(0 5)">
+<g filter="url(#sh026a)"><path d="M 220 185 L 262 170 Q 300 208 338 170 L 380 185 L 450 250 L 462 540 L 408 550 L 395 330 L 395 590 L 205 590 L 205 330 L 192 550 L 138 540 L 150 250 Z" fill="#E3B5A8" stroke="#151B3B" stroke-width="3.2" stroke-linejoin="round" stroke-linecap="round"/></g>
+<g clip-path="url(#c026a)"><defs><pattern id="p026a" width="14" height="16" patternUnits="userSpaceOnUse"><path d="M 1 2 L 7 12 L 13 2" fill="none" stroke="#151B3B" stroke-width="1.6" opacity=".22"/></pattern></defs><rect width="600" height="750" fill="url(#p026a)"/></g>
+<path d="M 220 185 L 262 170 Q 300 208 338 170 L 380 185 L 450 250 L 462 540 L 408 550 L 395 330 L 395 590 L 205 590 L 205 330 L 192 550 L 138 540 L 150 250 Z" fill="none" stroke="#151B3B" stroke-width="3.2" stroke-linejoin="round" stroke-linecap="round"/>
+<path d="M 258 170 Q 300 218 342 170" fill="none" stroke="#a38279" stroke-width="15" stroke-linecap="round" stroke-linejoin="round" /><path d="M 205 556 L 395 556" fill="none" stroke="#a38279" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round" /><path d="M 140 516 L 192 527 M 460 516 L 408 527" fill="none" stroke="#a38279" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round" /><path d="M 218 192 L 205 330 M 382 192 L 395 330" fill="none" stroke="#a38279" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
+</g>
+
+</svg>

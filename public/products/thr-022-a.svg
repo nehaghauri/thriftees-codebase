@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 750" width="600" height="750" role="img" aria-label="Illustration of top">
+<defs><filter id="sh022a" x="-10%" y="-10%" width="130%" height="130%"><feDropShadow dx="9" dy="12" stdDeviation="0" flood-color="#151B3B" flood-opacity=".16"/></filter><clipPath id="c022a"><path d="M 245 160 L 268 160 L 300 255 L 332 160 L 355 160 L 372 270 Q 372 312 392 346 L 392 590 L 208 590 L 208 346 Q 228 312 228 270 Z"/></clipPath></defs>
+<rect width="600" height="750" fill="#F6C3D0"/><rect x="0" y="80" width="600" height="46" fill="#fadbe3"/><rect x="0" y="200" width="600" height="46" fill="#fadbe3"/><rect x="0" y="320" width="600" height="46" fill="#fadbe3"/><rect x="0" y="440" width="600" height="46" fill="#fadbe3"/><rect x="0" y="560" width="600" height="46" fill="#fadbe3"/><rect x="0" y="680" width="600" height="46" fill="#fadbe3"/>
+<g transform="translate(0 15)">
+<g filter="url(#sh022a)"><path d="M 245 160 L 268 160 L 300 255 L 332 160 L 355 160 L 372 270 Q 372 312 392 346 L 392 590 L 208 590 L 208 346 Q 228 312 228 270 Z" fill="#25242A" stroke="#151B3B" stroke-width="3.2" stroke-linejoin="round" stroke-linecap="round"/></g>
+<g clip-path="url(#c022a)"></g>
+<path d="M 245 160 L 268 160 L 300 255 L 332 160 L 355 160 L 372 270 Q 372 312 392 346 L 392 590 L 208 590 L 208 346 Q 228 312 228 270 Z" fill="none" stroke="#151B3B" stroke-width="3.2" stroke-linejoin="round" stroke-linecap="round"/>
+<path d="M 208 568 L 392 568" fill="none" stroke="#1a191d" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" stroke-dasharray="7 6"/><path d="M 268 160 L 300 255 L 332 160" fill="none" stroke="#1a191d" stroke-width="2.6" stroke-linecap="round" stroke-linejoin="round" />
+</g>
+
+</svg>

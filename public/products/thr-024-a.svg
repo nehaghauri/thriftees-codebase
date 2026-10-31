@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 750" width="600" height="750" role="img" aria-label="Illustration of tshirt">
+<defs><filter id="sh024a" x="-10%" y="-10%" width="130%" height="130%"><feDropShadow dx="9" dy="12" stdDeviation="0" flood-color="#151B3B" flood-opacity=".16"/></filter><clipPath id="c024a"><path d="M 215 175 L 255 160 Q 300 200 345 160 L 385 175 L 475 235 L 440 305 L 392 282 L 392 590 L 208 590 L 208 282 L 160 305 L 125 235 Z"/></clipPath></defs>
+<rect width="600" height="750" fill="#F7D94C"/><circle cx="300" cy="385" r="250" fill="#fae894"/>
+<g transform="translate(0 0)">
+<g filter="url(#sh024a)"><path d="M 215 175 L 255 160 Q 300 200 345 160 L 385 175 L 475 235 L 440 305 L 392 282 L 392 590 L 208 590 L 208 282 L 160 305 L 125 235 Z" fill="#BFD3E0" stroke="#151B3B" stroke-width="3.2" stroke-linejoin="round" stroke-linecap="round"/></g>
+<g clip-path="url(#c024a)"><defs><pattern id="p024a" width="60" height="46" patternUnits="userSpaceOnUse"><rect y="0" width="60" height="15" fill="#2F4A6B"/></pattern></defs><rect width="600" height="750" fill="url(#p024a)"/></g>
+<path d="M 215 175 L 255 160 Q 300 200 345 160 L 385 175 L 475 235 L 440 305 L 392 282 L 392 590 L 208 590 L 208 282 L 160 305 L 125 235 Z" fill="none" stroke="#151B3B" stroke-width="3.2" stroke-linejoin="round" stroke-linecap="round"/>
+<path d="M 252 162 Q 300 212 348 162" fill="none" stroke="#86949d" stroke-width="11" stroke-linecap="round" stroke-linejoin="round" /><path d="M 215 175 L 208 282 M 385 175 L 392 282" fill="none" stroke="#86949d" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" /><path d="M 208 568 L 392 568" fill="none" stroke="#86949d" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" stroke-dasharray="7 6"/><path d="M 137 232 L 170 296 M 463 232 L 430 296" fill="none" stroke="#86949d" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" stroke-dasharray="7 6"/>
+</g>
+
+</svg>

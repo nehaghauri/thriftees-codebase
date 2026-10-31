@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 750" width="600" height="750" role="img" aria-label="Illustration of shorts">
+<defs><filter id="sh015a" x="-10%" y="-10%" width="130%" height="130%"><feDropShadow dx="9" dy="12" stdDeviation="0" flood-color="#151B3B" flood-opacity=".16"/></filter><clipPath id="c015a"><path d="M 198 130 L 402 130 L 432 395 L 322 395 L 300 262 L 278 395 L 168 395 Z"/></clipPath></defs>
+<rect width="600" height="750" fill="#F6C3D0"/><circle cx="470" cy="150" r="90" fill="#fadbe3"/><circle cx="110" cy="640" r="60" fill="#fadbe3"/>
+<g transform="translate(0 125)">
+<g filter="url(#sh015a)"><path d="M 198 130 L 402 130 L 432 395 L 322 395 L 300 262 L 278 395 L 168 395 Z" fill="#8FB0CE" stroke="#151B3B" stroke-width="3.2" stroke-linejoin="round" stroke-linecap="round"/></g>
+<g clip-path="url(#c015a)"><defs><radialGradient id="p015a" cx="50%" cy="48%" r="45%"><stop offset="0" stop-color="#fff" stop-opacity=".3"/><stop offset="1" stop-color="#fff" stop-opacity="0"/></radialGradient></defs><rect width="600" height="750" fill="url(#p015a)"/></g>
+<path d="M 198 130 L 402 130 L 432 395 L 322 395 L 300 262 L 278 395 L 168 395 Z" fill="none" stroke="#151B3B" stroke-width="3.2" stroke-linejoin="round" stroke-linecap="round"/>
+<path d="M 198 130 L 402 130 L 403 166 L 197 166 Z" fill="#96b5d1" stroke="#151B3B" stroke-width="3.2" stroke-linejoin="round" stroke-linecap="round"/><rect x="214" y="122" width="11" height="52" rx="3" fill="#8FB0CE" stroke="#151B3B" stroke-width="3.2" stroke-linejoin="round" stroke-linecap="round"/><rect x="375" y="122" width="11" height="52" rx="3" fill="#8FB0CE" stroke="#151B3B" stroke-width="3.2" stroke-linejoin="round" stroke-linecap="round"/><circle cx="300" cy="182" r="6" fill="#c7d8e7" stroke="#151B3B" stroke-width="3.2" stroke-linejoin="round" stroke-linecap="round"/><path d="M 300 168 L 300 252" fill="none" stroke="#647b90" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" /><path d="M 204 172 C 208 232 236 248 268 245 M 396 172 C 392 232 364 248 332 245" fill="none" stroke="#E5B04B" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" stroke-dasharray="7 6"/><path d="M 171 372 L 282 372 M 318 372 L 429 372" fill="none" stroke="#647b90" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round" />
+</g>
+
+</svg>
